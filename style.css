@@ -227,7 +227,7 @@
 
 /**img list**/
 .img-con {
-    width: 100vw;
+    width: 100%;
     position: relative;
 
 }
@@ -237,7 +237,7 @@
 }
 
 .img-item {
-    min-width: 100vw;
+    min-width: 100%;
     background-size: cover;
 }
 
@@ -305,6 +305,7 @@
     /* background-color: rgb(253, 253, 253); */
     background-size: cover;
 }
+
 .shop2-section {
     display: flex;
     justify-content: space-evenly;
@@ -313,6 +314,7 @@
     background-size: cover;
     margin-top: 25px;
 }
+
 .shop3-section {
     display: flex;
     justify-content: space-evenly;
@@ -321,6 +323,7 @@
     background-size: cover;
     margin-top: 25px;
 }
+
 .shop4-section {
     display: flex;
     justify-content: space-evenly;
@@ -368,4 +371,58 @@
     width: 90%;
     height: 80%;
     margin: 10px 0px 10px 17px;
+}
+
+.foot1 a {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(48, 55, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.foot1 a:hover {
+    background-color: rgb(52, 77, 78);
+}
+
+.foot2 {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(34, 50, 50);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.foot2 a:hover {
+    text-decoration: underline;
+}
+.foot-logo {
+    background-image: url(amazon-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 113px;
+   position: absolute;
+   margin-top: 230px;  
+}
+.last{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
